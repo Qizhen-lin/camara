@@ -1,0 +1,335 @@
+@media(max-width:375px) {
+  /* 頁首區塊 */
+
+  .set-in {
+    width: 351px;
+  }
+
+  .logo-block a,
+  .button-block {
+    display: none;
+  }
+
+  .hamburger-icon {
+    display: block;
+    font-size: 32px;
+    width: 32px;
+    color: #858377;
+    margin: 16px 12px 0 0;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .logo-block img {
+    margin-left: 16px;
+  }
+
+  .hamburger-menu {
+    position: absolute;
+    right: 0;
+    width: 128px;
+    border: 1px solid #8583775b;
+    background-color: #fff;
+    padding: 10px;
+    display: none;
+
+  }
+
+  .hamburger-menu a {
+    font-size: 16px;
+    color: #636057;
+  }
+
+  /* 標題區塊 */
+
+  .main-block {
+    
+    display: initial;  /* 恢復初始值 把pc版flex拿掉 */
+  }
+
+  .title-content h1 {
+    font-size: 24px;
+    color: #53524F;
+    letter-spacing: 2.25px;
+    line-height: 36px;
+  }
+
+  .main-content img {
+    width: 351px;
+    margin: 16.1px 0 15.6px;
+  }
+
+  .main-right .focus {
+    padding-top: 0;
+    margin-bottom: 5.5px;
+  }
+
+  .main-right {
+    width: 351px;
+  }
+
+  .main-right h2 {
+    margin-bottom: 0.1px;
+  }
+
+  .schedule-bar {
+    width: 351px;
+    margin-bottom: 8px;
+  }
+
+  .main-people div {
+    margin-bottom: 8.1px;
+  }
+
+  .img-flex {
+    justify-content: space-between;
+  }
+
+  .img-flex span {
+    font-size: 12px;
+    color: #636057;
+    letter-spacing: 0;
+    line-height: 18px;
+    width: 78px;
+    margin-left: 0;
+  }
+
+  .img-flex span:nth-child(1)::after {
+    content: "認證標章";
+    margin-left: 8px;
+  }
+
+  .img-flex span:nth-child(2)::after {
+    content: "品質保證";
+    margin-left: 8px;
+  }
+
+  .img-flex span:nth-child(3)::after {
+    content: "原生創意";
+    margin-left: 8px;
+  }
+
+  .img-flex span:nth-child(4)::after {
+    content: "人氣王";
+    margin-left: 8px;
+  }
+
+
+  .fundraising-news {
+    padding: 16px;
+  }
+
+  .gray-button {
+    padding-bottom: 32px;
+   
+  }
+
+  .fundraising-button > button {
+    font-size: 18px;
+  }
+
+  .gray-button button {
+    font-size: 18px;
+    padding: 9px 0;
+  }
+
+  .gray-button button:nth-child(2) {
+    margin-right: 0;
+  }
+
+  /* 共用 */
+
+  .content-block,
+   aside {
+    margin: 0 auto;
+  }
+
+/* nav bar區塊 */
+
+.nav-block {
+  margin-bottom: 32px;
+}
+
+.nav-block span {
+  font-size: 14px;
+  margin: 0 16px;
+  padding: 0;
+}
+
+
+/* 主要內容區塊 */
+
+.content-block-img img {
+  width: 351px;
+  margin-bottom: 16px;
+}
+
+.content-block p {
+  margin-bottom: 16px;
+}
+
+.content-block {
+  width: 351px;
+}
+.help-project {
+  font-size: 20px;
+  letter-spacing: 1.6px;
+  line-height: 29px;
+  left: 118px;
+}
+
+.form-style select,
+.form-style input {
+  width: 347px;
+}
+
+.article-block {
+  display: initial;
+}
+
+
+.footer-button button {
+  font-size: 16px;
+  width: 351px;
+  padding: 8px 0;
+}
+
+/* 右側區塊 */
+
+.no-money-title img {
+  width: 70px;
+}
+
+.no-money-office h4 {
+  font-size: 18px;
+}
+
+.no-money-office div {
+  font-size: 14px;
+}
+
+.no-money-mark {
+  display: none;
+}
+
+
+.program-content img{
+  width: 342px;
+}
+
+
+/* 頁尾區塊 */
+
+.last-block div {
+  font-size: 14px;
+}
+
+.last-block {
+  padding: 16px 51px;
+}
+
+/* 常見問答 */
+
+.questions-block {
+  width: 351px;
+  margin: 0 auto 16px;
+}
+
+.questions-content {
+  margin-bottom: 11.7px;
+  padding: 0 0 0 14px;
+}
+
+.questions-flex {
+  margin-bottom: 12.3px;
+}
+
+.questions-content span:nth-child(1) {
+  margin-right: 10px;
+}
+
+.questions-content span:nth-child(2) {
+  font-size: 16px;
+  letter-spacing: 0.8px;
+}
+
+.detailed-answer {
+  font-size: 16px;
+  padding: 12.3px 14px 14px;
+}
+
+/* 目前進度 */
+
+.activity-text {
+  display: none;
+}
+
+.current-progress {
+  width: 375px;
+  margin: 0 auto;
+}
+
+.progress-block {
+  width: 351px;
+}
+
+.progress-block .progress-img img {
+  width: 135px;
+  height: 132px;
+}
+
+.activity {
+  padding: 16px;
+}
+
+.activity-name {
+  letter-spacing: 0.7px;
+}
+
+.activity-other {
+  font-size: 16px;
+}
+
+/* 留言 */
+
+.leave-message {
+  width: 351px;
+}
+
+.mes-img img {
+  width: 50px;
+}
+
+.give-name {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1.6px;
+}
+
+.mes-reply {
+  margin-top: 8px;
+}
+
+.reply-text {
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
